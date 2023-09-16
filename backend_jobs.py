@@ -95,7 +95,7 @@ class YahooStockTradeData(YahooTradeDataAgent):
 
 
 if __name__ == '__main__':
-    ic = YahooStockTradeData()
+    ic = IndexComponent()
     ic.run()
     ic = YahooIndexTradeData()
     ic.run()
